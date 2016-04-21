@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff45919</color>
+    <color name="colorPrimaryDark">#ffd2501a</color>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimaryDark1">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#E64A19</color>
+    <color name="text">#ffffff</color>
+    <color name="up">#08c601</color>
+    <color name="down">#de0000</color>
+    <color name="stocks">#fcfcfc</color>
+    <color name="backgroundstocks">#4d4d56</color>
+    <color name="backgroundstocks2">#37373e</color>
+    <color name="indicatorstocks">#ccb6b4b4</color>
+</resources>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundstocks2">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <TextView
+        android:id="@+id/compName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_span="4"
+
+
+        android:textColor="@color/stocks"
+        android:padding="5dp">
+    </TextView>
+    </TableRow>
+
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/stocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/openpr"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:text="OPEN"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/opr"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="102.27"
+            android:textSize="20dp"
+
+            android:typeface="sans"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+
+            android:textColor="@color/stocks">
+        </TextView>
+        <TextView
+            android:id="@+id/mktcap"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="MKT CAP"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/mktpr"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="571.1B"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textColor="@color/stocks"
+            android:layout_gravity="center_vertical|right">
+        </TextView>
+    </TableRow>
+    <View
+        android:layout_height="1dp"
+        android:background="@color/indicatorstocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/highpr"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="HIGH"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/hpr"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="103.75"
+            android:textSize="20dp"
+
+            android:typeface="sans"
+
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            android:textColor="@color/stocks">
+        </TextView>
+        <TextView
+            android:id="@+id/fwh"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="52W HIGH"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/fwhpr"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="14.54"
+            android:gravity="right"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textColor="@color/stocks"
+            android:layout_gravity="center_vertical|right">
+        </TextView>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/indicatorstocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/lowpr"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="LOW"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/lpr"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="101.37"
+            android:textSize="20dp"
+
+            android:typeface="sans"
+
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            android:textColor="@color/stocks">
+        </TextView>
+        <TextView
+            android:id="@+id/lwh"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="52W LOW"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/lwhpr"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="92.00"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textColor="@color/stocks"
+            android:layout_gravity="center_vertical|right">
+        </TextView>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/indicatorstocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/volpr"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="VOL"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/vpr"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="46.06M"
+            android:textSize="20dp"
+
+            android:typeface="sans"
+
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            android:textColor="@color/stocks">
+        </TextView>
+        <TextView
+            android:id="@+id/avv"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="AVG VOL"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/avvpr"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="49.23M"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textColor="@color/stocks"
+            android:layout_gravity="center_vertical|right">
+        </TextView>
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="@color/indicatorstocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/per"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:text="P/E"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/pepr"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="10.96"
+            android:textSize="20dp"
+
+            android:typeface="sans"
+
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+
+            android:textColor="@color/stocks">
+        </TextView>
+        <TextView
+            android:id="@+id/ppr"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|left"
+            android:text="YIELD"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+
+            android:textColor="@color/indicatorstocks"
+            >
+        </TextView>
+        <TextView
+            android:id="@+id/yieldpr"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text="2.06%"
+            android:textSize="20dp"
+            android:typeface="sans"
+            android:textColor="@color/stocks"
+            android:layout_gravity="center_vertical|right">
+        </TextView>
+    </TableRow>
+    <View
+        android:layout_height="1dp"
+        android:background="@color/stocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+</TableLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/symbcomp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="1st item"
+        android:gravity="center"
+
+        android:textColor="@color/stocks"
+        >
+    </TextView>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/curprice"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="2nd item"
+        android:layout_toLeftOf="@+id/curchange"
+        android:gravity="center"
+
+        android:textColor="@color/stocks">
+    </TextView>
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/curchange"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:text="3rd item"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+
+        android:textColor="@color/stocks"
+        >
+    </TextView>
+    <View
+        android:layout_below="@+id/symbcomp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/indicatorstocks"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+
+</RelativeLayout>
